@@ -4,7 +4,8 @@
 #### 项目结构:
 
 ```
-  ├─spring-cloud-security-oauth2-server    认证服务模块
+  ├─spring-cloud-security-oauth2-server    认证服务模块(基于内存存储令牌)
+  ├─spring-cloud-security-oauth2-db-server 认证服务模块(基于数据库存储令牌)
   ├─.gitignore                             .gitignore文件
   ├─README.md                              README.md文件
   └─pom.xml                                父模块pom文件

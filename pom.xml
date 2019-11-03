@@ -11,6 +11,7 @@
 
     <modules>
         <module>spring-cloud-security-oauth2-server</module>
+        <module>spring-cloud-security-oauth2-db-server</module>
     </modules>
 
     <properties>
