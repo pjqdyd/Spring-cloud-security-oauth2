@@ -14,7 +14,7 @@
  6. 使用postman等工具, 根据授权code再次请求服务器获取令牌access_token:
     curl -X POST -H "Content-Type: application/x-www-form-urlencoded" -d 
     'grant_type=authorization_code&code=IEIWTh'
-    'http://client:secret@localhost:8080/oauth/token'
+    'http://client:secret@localhost:8081/oauth/token'
     
     返回结果:
     {
