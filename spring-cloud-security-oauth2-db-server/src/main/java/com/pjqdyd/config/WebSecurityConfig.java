@@ -36,7 +36,7 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
      */
     @Override
     protected void configure(AuthenticationManagerBuilder auth) throws Exception {
-        //在内存中添加两个用户
+        //在内存中添加两个用户 (可以从数据库获取用户权限信息添加)
         auth.inMemoryAuthentication()
                 .withUser("pjqdyd").password(bCryptPasswordEncoder().encode("123456")).roles("USER")
                 .and()
