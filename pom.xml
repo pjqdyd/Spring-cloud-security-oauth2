@@ -13,6 +13,7 @@
         <module>spring-cloud-security-oauth2-server</module>
         <module>spring-cloud-security-oauth2-db-server</module>
         <module>spring-cloud-security-oauth2-rbac-server</module>
+        <module>spring-cloud-security-oauth2-resources</module>
     </modules>
 
     <properties>
