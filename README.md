@@ -1,5 +1,5 @@
 
-### Spring Cloud Security Oauth2 微服务安全认证授权
+### Spring Cloud Security Oauth2 微服务安全认证授权 (授权码模式)
 
 #### 项目结构:
 
